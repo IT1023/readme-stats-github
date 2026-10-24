@@ -1,3 +1,19 @@
+## What's different in this fork
+
+The upstream project appears to be abandoned, so this fork keeps it going with the following additions
+(full details in [https://github.com/tuhinpal/readme-stats-github/compare/main...IT1023:readme-stats-github:main](LINK_TO_PR)):
+
+- **Multi-language support:** English (`en`), Chinese (`zh`), Hindi (`hi`), Spanish (`es`), Arabic (`ar`), French (`fr`), Bengali (`bn`), Portuguese (`pr`), Russian (`ru`), Urdu (`ur`), and Japanese (`ja`).
+- **Localized number formatting:** numbers are formatted to match the selected language.
+- **Easy Vercel deployment:** added `api/index` (outside `src`) so the project can be deployed to Vercel directly.
+
+### Usage
+
+All original parameters still work. The new `lang` parameter selects the language,
+and defaults to English if it's missing or unsupported.
+
+[https://readme-stats-github-iota.vercel.app/api?username=it1023&cc=22272e&tc=37BCF6&ic=fff&bc=0000&lang=ja](https://readme-stats-github-iota.vercel.app/api?username=it1023&cc=22272e&tc=37BCF6&ic=fff&bc=0000&lang=ja)
+
 # Readme Stats for Github 📈
 
 👀 Update: Whole project is rewritten with Typescript in 30 minutes on GitHub Codespaces. 💪
